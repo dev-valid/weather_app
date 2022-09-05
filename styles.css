@@ -1,0 +1,41 @@
+body {
+  background: rgb(131, 99, 116);
+  background: linear-gradient(to right bottom, rgba(131, 99, 116, 1) 0%, rgba(51, 48, 80, 1) 100%);
+}
+.container {
+  max-width: 360px;
+}
+
+.card {
+  height: 460px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  color: #f1f1f1;
+}
+
+.day {
+  background-image: linear-gradient(to right bottom, rgba(131, 99, 116, .8), rgba(51, 48, 80, .8)), url("img/day.jpg");
+}
+
+.night {
+  background-image: linear-gradient(to right bottom, rgba(131, 99, 116, .8), rgba(51, 48, 80, .8)), url("img/night.jpg");
+}
+
+.position-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon {
+  top: 40%;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.temperature {
+  font-size: 52px;
+  font-weight: 300;
+}
